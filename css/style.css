@@ -1,0 +1,131 @@
+
+html{
+    font-weight: 500;
+    border-bottom: solid 50px chocolate;
+    background-color: rgba(100, 100, 100, 0.1);
+}
+
+
+table{
+    border: solid 3px;
+    margin: 20px;
+    background-color: white;
+}
+
+td{
+    border: solid 1px;
+    width: 250px;
+}
+
+
+textarea{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    width: 620px;
+    height: 100px;
+    margin-left:20px;
+    
+}
+
+
+img{
+    height: 250px;
+    border: darkblue solid 5px;
+    box-shadow: 15px 15px 20px -10px;
+}
+
+
+button{
+    height: 100px;
+    width: 100px;
+    background-image: url(../img/1.png);
+    background-size: cover;
+    margin-left: 20px;
+    box-shadow: 5px 5px 10px -2px;
+    
+}
+
+a{
+    color: brown;
+    font-style:italic;
+}
+
+p{
+    color:cornflowerblue;
+    max-width: 1400px;
+}
+
+.header {
+    margin-top: -50px;
+    margin-left:-8px;
+    height: 80px;
+    width: 100%;
+    background-color:dodgerblue;
+    
+}
+.header p{
+    color:white;
+    margin-left:30px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.style_1{
+    margin-left: 100px;
+    font-family: Arial;
+}
+
+.style_2{
+    font-family: Georgia;
+    color:crimson;
+}
+
+
+.table_style{
+    color: darkblue;
+    font-family: cursive;
+}
+
+
+#p1{
+    font-size: 12px;
+    font-family: monospace;
+    color:aliceblue;
+    
+}
+#p2{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-stretch: condensed;
+    color:antiquewhite;
+}
+#p3{
+    font-size: 14px;
+    font-family: serif;
+    font-style: oblique;
+    color:aqua;
+}
+#p4{
+    font-size: 14px;
+    color:aquamarine;
+}
+#p5{
+    font-size: 14px;
+    font-family: monospace;
+    font-stretch:expanded;
+    color:azure;
+}
+
+
+.footer {
+    margin:50px 0px -50px -108px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 106%;
+    background-color: darkorange;
+    border-bottom: solid 5px chocolate;
+}
+
+.footer p{
+    margin-left: 100px;
+}
