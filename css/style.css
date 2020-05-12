@@ -9,7 +9,7 @@ html{
 table{
     border: solid 3px;
     margin: 20px;
-    background-color: white;
+    background-color:aliceblue;
 }
 
 td{
@@ -55,27 +55,26 @@ p{
     max-width: 1400px;
 }
 
-.header {
+header {
     margin-top: -50px;
-    margin-left:-8px;
     height: 80px;
-    width: 100%;
+    max-width: 100vw;
     background-color:dodgerblue;
     
 }
-.header p{
+header p{
     color:white;
     margin-left:30px;
     padding-top: 30px;
     font-size: 30px;
 }
 
-.style_1{
+main{
     margin-left: 100px;
     font-family: Arial;
 }
 
-.style_2{
+.list_style{
     font-family: Georgia;
     color:crimson;
 }
@@ -117,15 +116,15 @@ p{
 }
 
 
-.footer {
-    margin:50px 0px -50px -108px;
+footer {
+    margin:50px 0px -50px 0px;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 106%;
+    max-width: 100vw;
     background-color: darkorange;
     border-bottom: solid 5px chocolate;
 }
 
-.footer p{
+footer p{
     margin-left: 100px;
 }
